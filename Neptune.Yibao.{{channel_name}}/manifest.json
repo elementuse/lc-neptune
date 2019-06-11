@@ -1,0 +1,10 @@
+﻿{
+  "name": "Yibao.{{channel_name}}",
+  "displayName": "{{display_name}}医保插件",
+  "description": "{{display_name}}医保插件",
+  "version": "{version}",
+  "entryAssembly": "Neptune.Yibao.{{channel_name}}.dll",
+  "userInteractive": true,
+  "stage": "beta",
+  "components": "{components}"
+}

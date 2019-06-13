@@ -1,8 +1,8 @@
-﻿using Neptune.Yibao.{{channel_name}}.Model;
+﻿using Neptune.Yibao.{{cookiecutter.channel_name}}.Model;
 using System;
 using System.Collections.Generic;
 
-namespace Neptune.Yibao.{{channel_name}}
+namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {
     public class YibaoTestService : IYibaoService
     {

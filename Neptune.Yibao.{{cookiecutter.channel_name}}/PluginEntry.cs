@@ -3,7 +3,7 @@ using Neptune.Contract.Components.Web;
 using Neptune.Contract.Plugins;
 using System.ComponentModel.Composition;
 
-namespace Neptune.Yibao.{{channel_name}}
+namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {
     [Export(typeof(IPluginEntry))]
     public class PluginEntry : PluginEntryBase<PluginEntry>
@@ -23,7 +23,7 @@ namespace Neptune.Yibao.{{channel_name}}
                 var setting = (YibaoSetting)o;
                 YibaoSetting = setting;
                 YiBaoController.CreateService(setting);
-                Context.Logger.Info($"{{display_name}}医保配置更新: " + Newtonsoft.Json.JsonConvert.SerializeObject(setting));
+                Context.Logger.Info($"{{cookiecutter.display_name}}医保配置更新: " + Newtonsoft.Json.JsonConvert.SerializeObject(setting));
             });
         }
 

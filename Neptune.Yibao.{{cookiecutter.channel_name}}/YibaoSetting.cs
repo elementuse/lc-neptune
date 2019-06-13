@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Neptune.Yibao.{{channel_name}}
+namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {
     public class YibaoSetting
     {

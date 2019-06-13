@@ -1,0 +1,10 @@
+﻿{
+  "name": "Yibao.{{cookiecutter.channel_name}}",
+  "displayName": "{{cookiecutter.display_name}}医保插件",
+  "description": "{{cookiecutter.display_name}}医保插件",
+  "version": "{version}",
+  "entryAssembly": "Neptune.Yibao.{{cookiecutter.channel_name}}.dll",
+  "userInteractive": true,
+  "stage": "beta",
+  "components": "{components}"
+}

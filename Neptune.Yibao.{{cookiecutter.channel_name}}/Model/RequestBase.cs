@@ -1,4 +1,4 @@
-﻿namespace Neptune.Yibao.{{channel_name}}.Model
+﻿namespace Neptune.Yibao.{{cookiecutter.channel_name}}.Model
 {
     public class RequestBase
     {

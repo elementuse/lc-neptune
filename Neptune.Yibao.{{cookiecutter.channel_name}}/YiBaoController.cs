@@ -1,11 +1,11 @@
 ﻿using Neptune.Contract.Components.Web;
-using Neptune.Yibao.{{channel_name}}.Model;
+using Neptune.Yibao.{{cookiecutter.channel_name}}.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Neptune.Yibao.{{channel_name}}
+namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {
     public class YiBaoController : WebComponent, IYibaoService
     {

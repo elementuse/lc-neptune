@@ -1,4 +1,4 @@
-﻿using Neptune.Yibao.{{channel_name}}.Model;
+﻿using Neptune.Yibao.{{cookiecutter.channel_name}}.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Neptune.Yibao.{{channel_name}}
+namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {
     public class MessageSerializer
     {

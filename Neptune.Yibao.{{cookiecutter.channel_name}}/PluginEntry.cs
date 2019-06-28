@@ -15,6 +15,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 
             // 注册 webapi
             pluginContext.Container.Resolve<IWebComponentService>().Register<YiBaoController>(pluginContext);
+            pluginContext.Container.Resolve<IWebComponentService>().Register<WisdomController>(pluginContext);
 
             // 注册 配置
             pluginContext.Container.Resolve<IUserSettingComponentService>().RegisterSetting<YibaoSetting>(pluginContext,

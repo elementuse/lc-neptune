@@ -103,12 +103,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IWisdomService.cs" />
     <Compile Include="IYibaoService.cs" />
     <Compile Include="MessageSerializer.cs" />
+    <Compile Include="Model\Audit.cs" />
+    <Compile Include="Model\PreSettle.cs" />
+    <Compile Include="Model\ReadCard.cs" />
+    <Compile Include="Model\Refund.cs" />
+    <Compile Include="Model\Remind.cs" />
     <Compile Include="Model\RequestBase.cs" />
     <Compile Include="Model\ResponseBase.cs" />
+    <Compile Include="Model\Settle.cs" />
+    <Compile Include="Model\Wisdom.cs" />
     <Compile Include="PluginEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WisdomController.cs" />
+    <Compile Include="WisdomService.cs" />
+    <Compile Include="WisdomTestService.cs" />
     <Compile Include="YibaoApi.cs" />
     <Compile Include="YiBaoController.cs" />
     <Compile Include="YibaoService.cs" />

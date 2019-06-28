@@ -1,6 +1,5 @@
 ﻿using Neptune.Yibao.{{cookiecutter.channel_name}}.Model;
 using System;
-using System.Collections.Generic;
 
 namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {
@@ -13,7 +12,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name}}
         /// <returns></returns>
         public ReadCardResponse ReadCard(ReadCardRequest request)
         {
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -23,7 +22,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name}}
         /// <returns></returns>
         public PreSettleResponse PreSettle(PreSettleRequest request)
         {
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -33,7 +32,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name}}
         /// <returns></returns>
         public SettleResponse Settle(SettleRequest request)
         {
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -43,7 +42,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name}}
         /// <returns></returns>
         public RefundResponse Refund(RefundRequest request)
         {
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

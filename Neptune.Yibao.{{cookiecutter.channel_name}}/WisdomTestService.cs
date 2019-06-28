@@ -1,6 +1,5 @@
 ﻿using Neptune.Yibao.{{cookiecutter.channel_name }}.Model;
 using System;
-using System.Collections.Generic;
 
 namespace Neptune.Yibao.{{cookiecutter.channel_name }}
 {
@@ -13,7 +12,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name }}
         /// <returns></returns>
         public RemindResponse Remind(RemindRequest request)
         {
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -21,9 +20,9 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name }}
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        public WisdomResponse Audit(WisdomRequest<Audit> request)
+        public AuditResponse Audit(AuditRequest request)
         {
-            throw NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

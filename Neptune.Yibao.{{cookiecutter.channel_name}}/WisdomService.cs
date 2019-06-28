@@ -1,9 +1,6 @@
 ﻿using Neptune.Log;
 using Neptune.Yibao.{{cookiecutter.channel_name }}.Model;
 using System;
-using System.IO;
-using System.Management;
-using System.Text;
 using System.Threading;
 
 namespace Neptune.Yibao.{{cookiecutter.channel_name }}
@@ -15,7 +12,7 @@ namespace Neptune.Yibao.{{cookiecutter.channel_name }}
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        public RemindResponse Remind(RemindResponse request)
+        public RemindResponse Remind(RemindRequest request)
         {
             return SendRequest<RemindRequest, RemindResponse>(111, request);
         }

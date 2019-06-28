@@ -1,9 +1,5 @@
 ﻿using Neptune.Contract.Components.Web;
 using Neptune.Yibao.{{cookiecutter.channel_name}}.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Neptune.Yibao.{{cookiecutter.channel_name}}
 {

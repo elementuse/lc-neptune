@@ -1,7 +1,9 @@
 @echo off
 
-cd %plugindatapath%
+set filepath=%plugincodepath%\file
 
-copy /y "JxdxHisJk.dll" "%plugindatapath%\..\..\plugins\host.winform\"
+cd %filepath%
+
+copy /y *.* "%plugincodepath%\..\host.winform\"
 
 exit
